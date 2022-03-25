@@ -1,0 +1,59 @@
+.guest_room {
+  width: 605px;
+  height: 540px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.guestbook-image {
+  flex: 0 0 10rem;
+  height: 9rem;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-1 {
+  background-image: url("미니미배경1.png");
+  margin: 15px;
+}
+.background-2 {
+  background-image: url("미니미배경2.png");
+  margin: 15px;
+}
+.background-3 {
+  background-image: url("미니미배경3.png");
+  margin: 15px;
+}
+
+.guestbook-image > img {
+  width: 85%;
+}
+
+.guest_box {
+  background-color: rgb(185, 154, 243);
+  color: aliceblue;
+  padding: 7px;
+  margin: 15px;
+}
+
+.guest_name {
+  color: rgb(98, 96, 245);
+  font-weight: bold;
+}
+.guest_record {
+  justify-content: center;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 15px;
+}
+
+.guest {
+  height: 180px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}

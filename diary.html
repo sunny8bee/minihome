@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIARY</title>
+    <script src="https://kit.fontawesome.com/d412ab6794.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="guest.css">
+    <link rel="stylesheet" href="diary.css">
+    <link rel="stylesheet" href="album.css">
+</head>
+</head>
+
+<body>
+    <div class="bookcover">
+        <div class="bookdot">
+            <div class="page">
+                <div class="cont1">
+                    <div class="visit">TODAY <a class="visitpoint">11</a> | TOTAL 15458</div>
+                    <div class="row1">
+                        <img src="춘식이프로필.png" alt="">
+                        <br><br>
+                        <p>안냥....♥<br> 난 라이언과 동거중인 춘식이냥.<br>
+                            고구마 너무좋아🍠</p><br><br><br><br><br><br>
+                        <div class="about">&emsp;춘식이(🤷)<br> "길낭이 출신 성별 미상의 고양이"</div>
+                        <div class="selector">
+                            <select onchange="if(this.value) window.open(this.value);">
+                                <option value="">파도타기
+                                <option value="https://comu.oopy.io/">코뮤니티로 가기
+                                <option value="https://www.instagram.com/coding_comu">인스타그램으로 가기
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont2">
+                    <div class="subtitle">
+                        <div class="homename">춘식이 세상...★</div>
+                        <div class="homeurl">https://주소주소주소</div>
+                    </div>
+                    <div class="row2">
+                        <div class="box">
+                            <div class="diary">
+                                <div class="today">
+                                    <p>3.22</p>
+                                    <p>TUE</p>
+                                </div>
+                                <div class="days">
+                                    <ul>
+                                        <li class="holiday">1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                        <li class="satday">5</li>
+                                        <li class="holiday">6</li>
+                                        <li>7</li>
+                                        <li>8</li>
+                                        <li class="holiday">9</li>
+                                        <li>10</li>
+                                        <li>11</li>
+                                        <li class="satday">12</li>
+                                        <li class="holiday">13</li>
+                                        <li>14</li>
+                                        <li>15</li>
+                                        <li>16</li>
+                                        <li>17</li>
+                                        <li>18</li>
+                                        <li class="satday">19</li>
+                                        <li class="holiday">20</li>
+                                        <li>21</li>
+                                        <li>22</li>
+                                        <li>23</li>
+                                        <li>24</li>
+                                        <li>25</li>
+                                        <li class="satday">26</li>
+                                        <li class="holiday">27</li>
+                                        <li>28</li>
+                                        <li>29</li>
+                                        <li>30</li>
+                                        <li>31</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="diary_record">
+                                <div class="record">
+                                    <div class="record_today">
+                                        2022.03.22 화 20:22</div>
+                                    <div class="record_text">
+                                        <img src="춘식살빼기.jpg" alt="">
+                                        <p>오늘은 만보걷기를 했다.. </p>
+                                        <p>너무 힘들고 배고프다.</p>
+                                        <p>살이 어서 빠져야할텐데...</p>
+                                        <p>욕심많은 나는 야식을 꿈꾼다..</p>
+                                    </div>
+                                </div>
+                                <div class="record">
+                                    <div class="record_today">
+                                        2022.03.21 월 15:22</div>
+                                    <div class="record_text">
+                                        <p>라이언이랑 같이 아침운동 </p>
+                                        <p>너무 힘들고 배고프다.</p>
+                                        <p>살이 어서 빠져야할텐데...</p>
+                                        <p>욕심많은 푸짐한 점심을 꿈꾼다..</p>
+                                    </div>
+                                </div>
+                                <div class="record">
+                                    <div class="record_today">
+                                        2022.03.20 일 23:22</div>
+                                    <div class="record_text">
+                                        <p>꽃이 피고있다.. </p>
+                                        <p>너무나 아름다워 싱그러워...</p>
+                                        <p>오늘은 내마음이 꽃으로 물든ㄷr...</p>
+                                        <p>행복한 감정을 안고 잠들어본ㄷr...</p>
+                                    </div>
+                                </div>
+                                <div class="button-box">
+                                    <div class="button-text">
+                                        <button class="diary-button font-neo" onclick="getTextFile()">
+                                            <i class="fas fa-lock"></i>&ensp;춘식이 비밀일기 보기
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="diary-box" id="secret-box">
+                                    <div class="diary-date">춘식이 비밀 일기📘</div>
+                                    <div class="diary-text font-kyobohand" id="secret-diary"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont3">
+                    <br><br><br><br>
+                    <button class="side_menu">
+                        <a href="home.html">&emsp;홈 &emsp;</a></button>
+                    <button class="side_menu">
+                        <a href="diary.html">다이어리</a></button>
+                    <button class="side_menu">
+                        <a href="album.html">사진첩</a></button>
+                    <button class="side_menu">
+                        <a href="guest.html">방명록</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function getTextFile() {
+            var input = document.createElement("input");
+            input.type = "file";
+            input.accept = "text/plain";
+            input.onchange = function (event) {
+                processFile(event.target.files[0]);
+            };
+            input.click();
+        }
+        function processFile(file) {
+            var reader = new FileReader();
+            reader.readAsText(file, "utf-8");
+            reader.onload = function () {
+                document.getElementById("secret-diary").innerText = reader.result;
+                document.getElementById("secret-box").style.display = "block";
+            };
+        }
+    </script>
+</body>
+
+</html>
