@@ -1,0 +1,28 @@
+.photo-wrap {
+  height: 546px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.photo-title span {
+  background-color: rgb(230, 231, 240);
+  display: block;
+  padding: 7px 15px;
+  font-size: 15px;
+  margin: 7px;
+  font-weight: bold;
+}
+
+.photo-container .photo {
+  margin: 15px 15px 10px 15px;
+  width: 561px;
+}
+
+.photo-container .photo-desc {
+  font-size: 15px;
+  margin: 0px 15px;
+  margin-bottom: 50px;
+}
+
+body {
+  overflow-y: scroll;
+}

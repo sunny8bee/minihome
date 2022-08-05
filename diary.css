@@ -1,0 +1,117 @@
+.box {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.diary {
+  margin: 13px;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(190, 169, 240);
+  height: 60px;
+}
+
+.today {
+  width: 55px;
+  font-size: 0.99rem;
+  line-height: 0.9rem;
+  padding: 25px;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+
+.days ul {
+  list-style: none;
+  display: flex;
+  line-height: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.days li {
+  padding-right: 11px;
+  text-align: center;
+}
+
+.holiday {
+  color: rgb(243, 13, 13);
+}
+.satday {
+  color: blue;
+}
+
+.days {
+  color: rgb(114, 112, 112);
+}
+
+.diary_record {
+  width: 600px;
+  height: 440px;
+  margin: 0.11px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.record_today {
+  color: rgb(106, 51, 236);
+  font-weight: bold;
+}
+.record {
+  border: 1px solid rgb(190, 169, 240);
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 15px;
+}
+
+.record_text {
+  text-align: center;
+}
+
+.record_text > img {
+  height: 205px;
+}
+
+.button-box {
+  background-color: rgba(224, 224, 224, 0);
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  transition: 0.8s;
+  display: block;
+}
+
+.button-box:hover {
+  background-color: rgb(65, 92, 245);
+  border-radius: 10px;
+}
+
+#secret-box {
+  display: none;
+  border: 1px solid rgb(183, 202, 243);
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 15px;
+  color: rgb(99, 142, 235);
+}
+
+.diary-date {
+  text-align: left;
+  color: rgb(76, 150, 248);
+  font-weight: bold;
+}
+
+button.diary-button {
+  border: 0;
+  background-color: rgba(15, 15, 241, 0);
+  font-size: 15px;
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+}
